@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><SalaryDeposit>
+    <Organisation>
+        <Name>ABC</Name>
+        <AccountNo>SBC-12345789</AccountNo>
+    </Organisation>
+    <Employees>
+        <Emp>
+            <Name>DEF</Name>
+            <AccountNo>SB-001</AccountNo>
+            <Amount>1234</Amount>
+        </Emp>
+        <Emp>
+            <Name>GHI</Name>
+            <AccountNo>SB-002</AccountNo>
+            <Amount>9999</Amount>
+        </Emp>
+        <Emp>
+            <Name>JKL</Name>
+            <AccountNo>SB-003</AccountNo>
+            <Amount>3465</Amount>
+        </Emp>
+        <Emp>
+            <Name>MNO</Name>
+            <AccountNo>SB-007</AccountNo>
+            <Amount>5789</Amount>
+        </Emp>
+        <Emp>
+            <Name>PQR</Name>
+            <AccountNo>SB-009</AccountNo>
+            <Amount>1234</Amount>
+        </Emp>
+    </Employees>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>LxxNSBB4788OC386lWuU9BPiI+U=</DigestValue></Reference></SignedInfo><SignatureValue>fD2sia6R74WY2gnsb2HOQQ6lj9qnpxRGK0mfYqlH+OqeCoP94BbPyiwBMvHoTyelpmTBGIPrBzYu
+okLNosFZN0RhnXrVRLopUQy0zv+iKrtPIAJPT4cXcxreQ58YKAZ1DFcM/lwcwfmCdeD7ls7U8mU8
+9UgIi+xEUPoj8FIS7w4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mXNpMdYl4Bxt8Kq28yzmRuGsCGrPg9KFhttGgG0UtqzzfPPXgTZtAnqt+GNuFwFS826VKgivlIYI
+THLrXBuRH+QzutLbs+L1HyFBomCaC6ypdMz7Y7U4NwhGVlGEKlkbSlP/lJhEltCVvLsQhXNCYXX/
+qS308TJDK/KgvG2EErE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue></KeyInfo></Signature></SalaryDeposit>
